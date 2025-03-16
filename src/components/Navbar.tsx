@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/logo.png'; 
 import { Menu } from 'lucide-react';
 
 const Navbar = () => {
@@ -10,9 +11,9 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <img 
-              src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=100&h=100&fit=crop" 
+              src={logo} 
               alt="The Pink Forest" 
-              className="h-12 w-auto"
+              className="h-16 w-auto ml-2" // Increased height for better visibility
             />
           </div>
           
